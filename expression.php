@@ -17,5 +17,22 @@ $kapsa1="prázdná"; $kapsa2="prázdná";
 $kapsa2=($kapsa1="prázdná");
 // závorky ale můžu vynechat
 $kapsa2=$kapsa1="prázdná";
-echo "Jedna kapsa {$kapsa1} " . 'a druhá kapsa taky '.$kapsa2, "\n";
+echo "Jedna kapsa ${kapsa1} " . 'a druhá kapsa taky '.$kapsa2, "\n";
+
+$bajtu = 0;
+$bajtu = $bajtu + 100;
+$bajtu = $bajtu * 2;
+$bajtu /= 4;
+echo $bajtu, "\n";
+
+$pokoju=2;
+$pokoju_po_zmene=++$pokoju;
+echo $pokoju_po_zmene, "\n";
+
+$sql="select id, nazev, prijmeni, jmeno, ulice, psc, mesto ";
+$sql.="from zakaznik inner join objednavka on zakaznik.id = objednavka.zakaznik ";
+$sql.="where zakaznik.id = 7200";
+
+print_r($sql . "\n");
+echo $sql . "\n"
 ?>
