@@ -1,0 +1,270 @@
+[01-Dec-2016 20:41:12 Europe/Berlin] PHP Notice:  Use of undefined constant boo - assumed 'boo' in /home/mira/workspace/php/retype.php on line 33
+[01-Dec-2016 20:41:12 Europe/Berlin] PHP Stack trace:
+[01-Dec-2016 20:41:12 Europe/Berlin] PHP   1. {main}() /home/mira/workspace/php/retype.php:0
+[01-Dec-2016 20:44:54 Europe/Berlin] PHP Warning:  settype(): Invalid type in /home/mira/workspace/php/retype.php on line 32
+[01-Dec-2016 20:44:54 Europe/Berlin] PHP Stack trace:
+[01-Dec-2016 20:44:54 Europe/Berlin] PHP   1. {main}() /home/mira/workspace/php/retype.php:0
+[01-Dec-2016 20:44:54 Europe/Berlin] PHP   2. settype() /home/mira/workspace/php/retype.php:32
+[01-Dec-2016 20:51:59 Europe/Berlin] PHP Warning:  Division by zero in /home/mira/workspace/php/retype.php on line 43
+[01-Dec-2016 20:51:59 Europe/Berlin] PHP Stack trace:
+[01-Dec-2016 20:51:59 Europe/Berlin] PHP   1. {main}() /home/mira/workspace/php/retype.php:0
+[01-Dec-2016 20:52:15 Europe/Berlin] PHP Warning:  Division by zero in /home/mira/workspace/php/retype.php on line 43
+[01-Dec-2016 20:52:15 Europe/Berlin] PHP Stack trace:
+[01-Dec-2016 20:52:15 Europe/Berlin] PHP   1. {main}() /home/mira/workspace/php/retype.php:0
+[01-Dec-2016 20:52:32 Europe/Berlin] PHP Warning:  Division by zero in /home/mira/workspace/php/retype.php on line 43
+[01-Dec-2016 20:52:32 Europe/Berlin] PHP Stack trace:
+[01-Dec-2016 20:52:32 Europe/Berlin] PHP   1. {main}() /home/mira/workspace/php/retype.php:0
+[03-Dec-2016 10:44:52 Europe/Berlin] PHP Warning:  Division by zero in /home/mira/workspace/php/priority.php on line 2
+[03-Dec-2016 10:44:52 Europe/Berlin] PHP Stack trace:
+[03-Dec-2016 10:44:52 Europe/Berlin] PHP   1. {main}() /home/mira/workspace/php/priority.php:0
+[03-Dec-2016 10:45:22 Europe/Berlin] PHP Warning:  Division by zero in /home/mira/workspace/php/priority.php on line 2
+[03-Dec-2016 10:45:22 Europe/Berlin] PHP Stack trace:
+[03-Dec-2016 10:45:22 Europe/Berlin] PHP   1. {main}() /home/mira/workspace/php/priority.php:0
+[03-Dec-2016 10:45:32 Europe/Berlin] PHP Warning:  Division by zero in /home/mira/workspace/php/priority.php on line 2
+[03-Dec-2016 10:45:32 Europe/Berlin] PHP Stack trace:
+[03-Dec-2016 10:45:32 Europe/Berlin] PHP   1. {main}() /home/mira/workspace/php/priority.php:0
+[03-Dec-2016 10:46:30 Europe/Berlin] PHP Warning:  Division by zero in /home/mira/workspace/php/priority.php on line 2
+[03-Dec-2016 10:46:30 Europe/Berlin] PHP Stack trace:
+[03-Dec-2016 10:46:30 Europe/Berlin] PHP   1. {main}() /home/mira/workspace/php/priority.php:0
+[03-Dec-2016 10:49:13 Europe/Berlin] PHP Warning:  Division by zero in /home/mira/workspace/php/priority.php on line 2
+[03-Dec-2016 10:49:13 Europe/Berlin] PHP Stack trace:
+[03-Dec-2016 10:49:13 Europe/Berlin] PHP   1. {main}() /home/mira/workspace/php/priority.php:0
+[03-Dec-2016 10:49:34 Europe/Berlin] PHP Warning:  Division by zero in /home/mira/workspace/php/priority.php on line 2
+[03-Dec-2016 10:49:34 Europe/Berlin] PHP Stack trace:
+[03-Dec-2016 10:49:34 Europe/Berlin] PHP   1. {main}() /home/mira/workspace/php/priority.php:0
+[03-Dec-2016 10:49:52 Europe/Berlin] PHP Warning:  Division by zero in /home/mira/workspace/php/priority.php on line 2
+[03-Dec-2016 10:49:52 Europe/Berlin] PHP Stack trace:
+[03-Dec-2016 10:49:52 Europe/Berlin] PHP   1. {main}() /home/mira/workspace/php/priority.php:0
+[03-Dec-2016 10:58:30 Europe/Berlin] PHP Warning:  Division by zero in /home/mira/workspace/php/priority.php on line 3
+[03-Dec-2016 10:58:30 Europe/Berlin] PHP Stack trace:
+[03-Dec-2016 10:58:30 Europe/Berlin] PHP   1. {main}() /home/mira/workspace/php/priority.php:0
+[03-Dec-2016 10:58:45 Europe/Berlin] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/mira/workspace/php/priority.php on line 3
+[03-Dec-2016 11:00:32 Europe/Berlin] PHP Warning:  Division by zero in /home/mira/workspace/php/priority.php on line 3
+[03-Dec-2016 11:00:32 Europe/Berlin] PHP Stack trace:
+[03-Dec-2016 11:00:32 Europe/Berlin] PHP   1. {main}() /home/mira/workspace/php/priority.php:0
+[03-Dec-2016 11:05:42 Europe/Berlin] PHP Warning:  Division by zero in /home/mira/workspace/php/priority.php on line 3
+[03-Dec-2016 11:05:42 Europe/Berlin] PHP Stack trace:
+[03-Dec-2016 11:05:42 Europe/Berlin] PHP   1. {main}() /home/mira/workspace/php/priority.php:0
+[03-Dec-2016 11:06:37 Europe/Berlin] PHP Warning:  Division by zero in /home/mira/workspace/php/priority.php on line 2
+[03-Dec-2016 11:06:37 Europe/Berlin] PHP Stack trace:
+[03-Dec-2016 11:06:37 Europe/Berlin] PHP   1. {main}() /home/mira/workspace/php/priority.php:0
+[03-Dec-2016 11:10:02 Europe/Berlin] PHP Fatal error:  Uncaught Exception: Division by zero. in /home/mira/workspace/php/priority.php:4
+Stack trace:
+#0 /home/mira/workspace/php/priority.php(18): inverse(0)
+#1 {main}
+  thrown in /home/mira/workspace/php/priority.php on line 4
+[03-Dec-2016 11:10:20 Europe/Berlin] PHP Fatal error:  Uncaught Exception: Division by zero. in /home/mira/workspace/php/priority.php:4
+Stack trace:
+#0 /home/mira/workspace/php/priority.php(17): inverse(0)
+#1 {main}
+  thrown in /home/mira/workspace/php/priority.php on line 4
+[03-Dec-2016 11:10:55 Europe/Berlin] PHP Fatal error:  Uncaught Exception: Division by zero. in /home/mira/workspace/php/priority.php:4
+Stack trace:
+#0 /home/mira/workspace/php/priority.php(17): inverse(0)
+#1 {main}
+  thrown in /home/mira/workspace/php/priority.php on line 4
+[03-Dec-2016 11:11:29 Europe/Berlin] PHP Warning:  Division by zero in /home/mira/workspace/php/priority.php on line 17
+[03-Dec-2016 11:11:29 Europe/Berlin] PHP Stack trace:
+[03-Dec-2016 11:11:29 Europe/Berlin] PHP   1. {main}() /home/mira/workspace/php/priority.php:0
+[03-Dec-2016 11:13:54 Europe/Berlin] Retez
+[03-Dec-2016 11:21:37 Europe/Berlin] Retez
+[03-Dec-2016 11:27:55 Europe/Berlin] Retez
+[03-Dec-2016 11:35:45 Europe/Berlin] PHP Warning:  Division by zero in /home/mira/workspace/php/priority.php on line 2
+[03-Dec-2016 11:35:45 Europe/Berlin] PHP Stack trace:
+[03-Dec-2016 11:35:45 Europe/Berlin] PHP   1. {main}() /home/mira/workspace/php/priority.php:0
+[03-Dec-2016 11:40:18 Europe/Berlin] PHP Warning:  Division by zero in /home/mira/workspace/php/priority.php on line 2
+[03-Dec-2016 11:40:18 Europe/Berlin] PHP Stack trace:
+[03-Dec-2016 11:40:18 Europe/Berlin] PHP   1. {main}() /home/mira/workspace/php/priority.php:0
+[03-Dec-2016 11:41:04 Europe/Berlin] PHP Warning:  Division by zero in /home/mira/workspace/php/priority.php on line 2
+[03-Dec-2016 11:41:04 Europe/Berlin] PHP Stack trace:
+[03-Dec-2016 11:41:04 Europe/Berlin] PHP   1. {main}() /home/mira/workspace/php/priority.php:0
+[03-Dec-2016 11:41:41 Europe/Berlin] PHP Warning:  Division by zero in /home/mira/workspace/php/priority.php on line 2
+[03-Dec-2016 11:41:41 Europe/Berlin] PHP Stack trace:
+[03-Dec-2016 11:41:41 Europe/Berlin] PHP   1. {main}() /home/mira/workspace/php/priority.php:0
+[03-Dec-2016 11:41:55 Europe/Berlin] PHP Warning:  Division by zero in /home/mira/workspace/php/priority.php on line 2
+[03-Dec-2016 11:41:55 Europe/Berlin] PHP Stack trace:
+[03-Dec-2016 11:41:55 Europe/Berlin] PHP   1. {main}() /home/mira/workspace/php/priority.php:0
+[03-Dec-2016 11:44:22 Europe/Berlin] PHP Warning:  Division by zero in /home/mira/workspace/php/priority.php on line 2
+[03-Dec-2016 11:44:22 Europe/Berlin] PHP Stack trace:
+[03-Dec-2016 11:44:22 Europe/Berlin] PHP   1. {main}() /home/mira/workspace/php/priority.php:0
+[03-Dec-2016 11:44:56 Europe/Berlin] PHP Warning:  Division by zero in /home/mira/workspace/php/priority.php on line 2
+[03-Dec-2016 11:44:56 Europe/Berlin] PHP Stack trace:
+[03-Dec-2016 11:44:56 Europe/Berlin] PHP   1. {main}() /home/mira/workspace/php/priority.php:0
+[03-Dec-2016 11:45:57 Europe/Berlin] PHP Warning:  Division by zero in /home/mira/workspace/php/priority.php on line 2
+[03-Dec-2016 11:45:57 Europe/Berlin] PHP Stack trace:
+[03-Dec-2016 11:45:57 Europe/Berlin] PHP   1. {main}() /home/mira/workspace/php/priority.php:0
+[03-Dec-2016 11:46:07 Europe/Berlin] PHP Warning:  Division by zero in /home/mira/workspace/php/priority.php on line 2
+[03-Dec-2016 11:46:07 Europe/Berlin] PHP Stack trace:
+[03-Dec-2016 11:46:07 Europe/Berlin] PHP   1. {main}() /home/mira/workspace/php/priority.php:0
+[03-Dec-2016 11:46:19 Europe/Berlin] PHP Warning:  Division by zero in /home/mira/workspace/php/priority.php on line 2
+[03-Dec-2016 11:46:19 Europe/Berlin] PHP Stack trace:
+[03-Dec-2016 11:46:19 Europe/Berlin] PHP   1. {main}() /home/mira/workspace/php/priority.php:0
+[03-Dec-2016 11:47:13 Europe/Berlin] PHP Warning:  Division by zero in /home/mira/workspace/php/priority.php on line 2
+[03-Dec-2016 11:47:13 Europe/Berlin] PHP Stack trace:
+[03-Dec-2016 11:47:13 Europe/Berlin] PHP   1. {main}() /home/mira/workspace/php/priority.php:0
+[03-Dec-2016 11:48:45 Europe/Berlin] PHP Warning:  Division by zero in /home/mira/workspace/php/priority.php on line 2
+[03-Dec-2016 11:48:45 Europe/Berlin] PHP Stack trace:
+[03-Dec-2016 11:48:45 Europe/Berlin] PHP   1. {main}() /home/mira/workspace/php/priority.php:0
+[03-Dec-2016 11:49:11 Europe/Berlin] PHP Warning:  Division by zero in /home/mira/workspace/php/priority.php on line 2
+[03-Dec-2016 11:49:11 Europe/Berlin] PHP Stack trace:
+[03-Dec-2016 11:49:11 Europe/Berlin] PHP   1. {main}() /home/mira/workspace/php/priority.php:0
+[03-Dec-2016 11:49:38 Europe/Berlin] PHP Warning:  Division by zero in /home/mira/workspace/php/priority.php on line 2
+[03-Dec-2016 11:49:38 Europe/Berlin] PHP Stack trace:
+[03-Dec-2016 11:49:38 Europe/Berlin] PHP   1. {main}() /home/mira/workspace/php/priority.php:0
+[03-Dec-2016 11:50:16 Europe/Berlin] PHP Warning:  Division by zero in /home/mira/workspace/php/priority.php on line 2
+[03-Dec-2016 11:50:16 Europe/Berlin] PHP Stack trace:
+[03-Dec-2016 11:50:16 Europe/Berlin] PHP   1. {main}() /home/mira/workspace/php/priority.php:0
+[03-Dec-2016 11:50:51 Europe/Berlin] PHP Warning:  Division by zero in /home/mira/workspace/php/priority.php on line 2
+[03-Dec-2016 11:50:51 Europe/Berlin] PHP Stack trace:
+[03-Dec-2016 11:50:51 Europe/Berlin] PHP   1. {main}() /home/mira/workspace/php/priority.php:0
+[03-Dec-2016 11:57:25 Europe/Berlin] PHP Parse error:  syntax error, unexpected '"\n"' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home/mira/workspace/php/priority.php on line 2
+[03-Dec-2016 11:58:29 Europe/Berlin] PHP Warning:  Division by zero in /home/mira/workspace/php/priority.php on line 2
+[03-Dec-2016 11:58:29 Europe/Berlin] PHP Stack trace:
+[03-Dec-2016 11:58:29 Europe/Berlin] PHP   1. {main}() /home/mira/workspace/php/priority.php:0
+[03-Dec-2016 11:59:11 Europe/Berlin] PHP Warning:  Division by zero in /home/mira/workspace/php/priority.php on line 2
+[03-Dec-2016 11:59:11 Europe/Berlin] PHP Stack trace:
+[03-Dec-2016 11:59:11 Europe/Berlin] PHP   1. {main}() /home/mira/workspace/php/priority.php:0
+[03-Dec-2016 11:59:54 Europe/Berlin] PHP Warning:  Division by zero in /home/mira/workspace/php/priority.php on line 2
+[03-Dec-2016 11:59:54 Europe/Berlin] PHP Stack trace:
+[03-Dec-2016 11:59:54 Europe/Berlin] PHP   1. {main}() /home/mira/workspace/php/priority.php:0
+[03-Dec-2016 12:00:03 Europe/Berlin] PHP Warning:  Division by zero in /home/mira/workspace/php/priority.php on line 2
+[03-Dec-2016 12:00:03 Europe/Berlin] PHP Stack trace:
+[03-Dec-2016 12:00:03 Europe/Berlin] PHP   1. {main}() /home/mira/workspace/php/priority.php:0
+[03-Dec-2016 12:01:07 Europe/Berlin] PHP Warning:  Division by zero in /home/mira/workspace/php/priority.php on line 2
+[03-Dec-2016 12:01:07 Europe/Berlin] PHP Stack trace:
+[03-Dec-2016 12:01:07 Europe/Berlin] PHP   1. {main}() /home/mira/workspace/php/priority.php:0
+[03-Dec-2016 12:01:27 Europe/Berlin] PHP Warning:  Division by zero in /home/mira/workspace/php/priority.php on line 2
+[03-Dec-2016 12:01:27 Europe/Berlin] PHP Stack trace:
+[03-Dec-2016 12:01:27 Europe/Berlin] PHP   1. {main}() /home/mira/workspace/php/priority.php:0
+[03-Dec-2016 12:02:31 Europe/Berlin] PHP Warning:  Division by zero in /home/mira/workspace/php/priority.php on line 2
+[03-Dec-2016 12:02:31 Europe/Berlin] PHP Stack trace:
+[03-Dec-2016 12:02:31 Europe/Berlin] PHP   1. {main}() /home/mira/workspace/php/priority.php:0
+[03-Dec-2016 12:02:54 Europe/Berlin] PHP Warning:  Division by zero in /home/mira/workspace/php/priority.php on line 2
+[03-Dec-2016 12:02:54 Europe/Berlin] PHP Stack trace:
+[03-Dec-2016 12:02:54 Europe/Berlin] PHP   1. {main}() /home/mira/workspace/php/priority.php:0
+[03-Dec-2016 12:02:54 Europe/Berlin] PHP Notice:  Undefined variable: prijmeni in /home/mira/workspace/php/priority.php on line 30
+[03-Dec-2016 12:02:54 Europe/Berlin] PHP Stack trace:
+[03-Dec-2016 12:02:54 Europe/Berlin] PHP   1. {main}() /home/mira/workspace/php/priority.php:0
+[03-Dec-2016 12:03:33 Europe/Berlin] PHP Warning:  Division by zero in /home/mira/workspace/php/priority.php on line 2
+[03-Dec-2016 12:03:33 Europe/Berlin] PHP Stack trace:
+[03-Dec-2016 12:03:33 Europe/Berlin] PHP   1. {main}() /home/mira/workspace/php/priority.php:0
+[03-Dec-2016 12:03:33 Europe/Berlin] PHP Notice:  Undefined variable: prijmeni in /home/mira/workspace/php/priority.php on line 30
+[03-Dec-2016 12:03:33 Europe/Berlin] PHP Stack trace:
+[03-Dec-2016 12:03:33 Europe/Berlin] PHP   1. {main}() /home/mira/workspace/php/priority.php:0
+[03-Dec-2016 12:03:47 Europe/Berlin] PHP Warning:  Division by zero in /home/mira/workspace/php/priority.php on line 2
+[03-Dec-2016 12:03:47 Europe/Berlin] PHP Stack trace:
+[03-Dec-2016 12:03:47 Europe/Berlin] PHP   1. {main}() /home/mira/workspace/php/priority.php:0
+[03-Dec-2016 12:03:47 Europe/Berlin] PHP Notice:  Undefined variable: prijmeni in /home/mira/workspace/php/priority.php on line 30
+[03-Dec-2016 12:03:47 Europe/Berlin] PHP Stack trace:
+[03-Dec-2016 12:03:47 Europe/Berlin] PHP   1. {main}() /home/mira/workspace/php/priority.php:0
+[03-Dec-2016 12:04:12 Europe/Berlin] PHP Warning:  Division by zero in /home/mira/workspace/php/priority.php on line 2
+[03-Dec-2016 12:04:12 Europe/Berlin] PHP Stack trace:
+[03-Dec-2016 12:04:12 Europe/Berlin] PHP   1. {main}() /home/mira/workspace/php/priority.php:0
+[03-Dec-2016 12:04:23 Europe/Berlin] PHP Warning:  Division by zero in /home/mira/workspace/php/priority.php on line 2
+[03-Dec-2016 12:04:23 Europe/Berlin] PHP Stack trace:
+[03-Dec-2016 12:04:23 Europe/Berlin] PHP   1. {main}() /home/mira/workspace/php/priority.php:0
+[03-Dec-2016 12:05:00 Europe/Berlin] PHP Warning:  Division by zero in /home/mira/workspace/php/priority.php on line 2
+[03-Dec-2016 12:05:00 Europe/Berlin] PHP Stack trace:
+[03-Dec-2016 12:05:00 Europe/Berlin] PHP   1. {main}() /home/mira/workspace/php/priority.php:0
+[03-Dec-2016 12:05:15 Europe/Berlin] PHP Warning:  Division by zero in /home/mira/workspace/php/priority.php on line 2
+[03-Dec-2016 12:05:15 Europe/Berlin] PHP Stack trace:
+[03-Dec-2016 12:05:15 Europe/Berlin] PHP   1. {main}() /home/mira/workspace/php/priority.php:0
+[03-Dec-2016 12:05:25 Europe/Berlin] PHP Warning:  Division by zero in /home/mira/workspace/php/priority.php on line 2
+[03-Dec-2016 12:05:25 Europe/Berlin] PHP Stack trace:
+[03-Dec-2016 12:05:25 Europe/Berlin] PHP   1. {main}() /home/mira/workspace/php/priority.php:0
+[03-Dec-2016 12:05:34 Europe/Berlin] PHP Warning:  Division by zero in /home/mira/workspace/php/priority.php on line 2
+[03-Dec-2016 12:05:34 Europe/Berlin] PHP Stack trace:
+[03-Dec-2016 12:05:34 Europe/Berlin] PHP   1. {main}() /home/mira/workspace/php/priority.php:0
+[03-Dec-2016 12:05:41 Europe/Berlin] PHP Warning:  Division by zero in /home/mira/workspace/php/priority.php on line 2
+[03-Dec-2016 12:05:41 Europe/Berlin] PHP Stack trace:
+[03-Dec-2016 12:05:41 Europe/Berlin] PHP   1. {main}() /home/mira/workspace/php/priority.php:0
+[03-Dec-2016 12:06:49 Europe/Berlin] PHP Warning:  Division by zero in /home/mira/workspace/php/priority.php on line 2
+[03-Dec-2016 12:06:49 Europe/Berlin] PHP Stack trace:
+[03-Dec-2016 12:06:49 Europe/Berlin] PHP   1. {main}() /home/mira/workspace/php/priority.php:0
+[03-Dec-2016 12:09:00 Europe/Berlin] PHP Warning:  Division by zero in /home/mira/workspace/php/priority.php on line 2
+[03-Dec-2016 12:09:00 Europe/Berlin] PHP Stack trace:
+[03-Dec-2016 12:09:00 Europe/Berlin] PHP   1. {main}() /home/mira/workspace/php/priority.php:0
+[03-Dec-2016 12:09:00 Europe/Berlin] PHP Warning:  Division by zero in /home/mira/workspace/php/priority.php on line 31
+[03-Dec-2016 12:09:00 Europe/Berlin] PHP Stack trace:
+[03-Dec-2016 12:09:00 Europe/Berlin] PHP   1. {main}() /home/mira/workspace/php/priority.php:0
+[03-Dec-2016 12:09:00 Europe/Berlin] PHP Notice:  Undefined variable: vyber in /home/mira/workspace/php/priority.php on line 32
+[03-Dec-2016 12:09:00 Europe/Berlin] PHP Stack trace:
+[03-Dec-2016 12:09:00 Europe/Berlin] PHP   1. {main}() /home/mira/workspace/php/priority.php:0
+[03-Dec-2016 12:09:11 Europe/Berlin] PHP Warning:  Division by zero in /home/mira/workspace/php/priority.php on line 2
+[03-Dec-2016 12:09:11 Europe/Berlin] PHP Stack trace:
+[03-Dec-2016 12:09:11 Europe/Berlin] PHP   1. {main}() /home/mira/workspace/php/priority.php:0
+[03-Dec-2016 12:09:11 Europe/Berlin] PHP Warning:  Division by zero in /home/mira/workspace/php/priority.php on line 31
+[03-Dec-2016 12:09:11 Europe/Berlin] PHP Stack trace:
+[03-Dec-2016 12:09:11 Europe/Berlin] PHP   1. {main}() /home/mira/workspace/php/priority.php:0
+[03-Dec-2016 12:09:11 Europe/Berlin] PHP Notice:  Undefined variable: vyber in /home/mira/workspace/php/priority.php on line 32
+[03-Dec-2016 12:09:11 Europe/Berlin] PHP Stack trace:
+[03-Dec-2016 12:09:11 Europe/Berlin] PHP   1. {main}() /home/mira/workspace/php/priority.php:0
+[03-Dec-2016 12:10:04 Europe/Berlin] PHP Warning:  Division by zero in /home/mira/workspace/php/priority.php on line 2
+[03-Dec-2016 12:10:04 Europe/Berlin] PHP Stack trace:
+[03-Dec-2016 12:10:04 Europe/Berlin] PHP   1. {main}() /home/mira/workspace/php/priority.php:0
+[03-Dec-2016 12:10:39 Europe/Berlin] PHP Warning:  Division by zero in /home/mira/workspace/php/priority.php on line 2
+[03-Dec-2016 12:10:39 Europe/Berlin] PHP Stack trace:
+[03-Dec-2016 12:10:39 Europe/Berlin] PHP   1. {main}() /home/mira/workspace/php/priority.php:0
+[03-Dec-2016 12:10:47 Europe/Berlin] PHP Warning:  Division by zero in /home/mira/workspace/php/priority.php on line 2
+[03-Dec-2016 12:10:47 Europe/Berlin] PHP Stack trace:
+[03-Dec-2016 12:10:47 Europe/Berlin] PHP   1. {main}() /home/mira/workspace/php/priority.php:0
+[03-Dec-2016 22:03:13 Europe/Berlin] PHP Parse error:  syntax error, unexpected end of file, expecting ',' or ';' in /home/mira/workspace/php/conditions.php on line 11
+[03-Dec-2016 22:04:16 Europe/Berlin] PHP Notice:  Use of undefined constant help - assumed 'help' in php shell code on line 1
+[03-Dec-2016 22:04:16 Europe/Berlin] PHP Stack trace:
+[03-Dec-2016 22:04:16 Europe/Berlin] PHP   1. {main}() php shell code:0
+[03-Dec-2016 22:04:20 Europe/Berlin] PHP Warning:  Division by zero in php shell code on line 1
+[03-Dec-2016 22:04:20 Europe/Berlin] PHP Stack trace:
+[03-Dec-2016 22:04:20 Europe/Berlin] PHP   1. {main}() php shell code:0
+[03-Dec-2016 22:20:35 Europe/Berlin] PHP Notice:  Undefined variable: pocetnavstev in /home/mira/workspace/php/conditions.php on line 21
+[03-Dec-2016 22:20:35 Europe/Berlin] PHP Stack trace:
+[03-Dec-2016 22:20:35 Europe/Berlin] PHP   1. {main}() /home/mira/workspace/php/conditions.php:0
+[03-Dec-2016 22:20:35 Europe/Berlin] PHP Notice:  Undefined variable: browser in /home/mira/workspace/php/conditions.php on line 24
+[03-Dec-2016 22:20:35 Europe/Berlin] PHP Stack trace:
+[03-Dec-2016 22:20:35 Europe/Berlin] PHP   1. {main}() /home/mira/workspace/php/conditions.php:0
+[03-Dec-2016 22:20:35 Europe/Berlin] PHP Notice:  Undefined variable: browser in /home/mira/workspace/php/conditions.php on line 25
+[03-Dec-2016 22:20:35 Europe/Berlin] PHP Stack trace:
+[03-Dec-2016 22:20:35 Europe/Berlin] PHP   1. {main}() /home/mira/workspace/php/conditions.php:0
+[03-Dec-2016 22:20:35 Europe/Berlin] PHP Notice:  Undefined variable: browser in /home/mira/workspace/php/conditions.php on line 26
+[03-Dec-2016 22:20:35 Europe/Berlin] PHP Stack trace:
+[03-Dec-2016 22:20:35 Europe/Berlin] PHP   1. {main}() /home/mira/workspace/php/conditions.php:0
+[04-Dec-2016 21:10:37 Europe/Berlin] PHP Notice:  Undefined variable: pocetnavstev in /home/mira/workspace/php/conditions.php on line 21
+[04-Dec-2016 21:10:37 Europe/Berlin] PHP Stack trace:
+[04-Dec-2016 21:10:37 Europe/Berlin] PHP   1. {main}() /home/mira/workspace/php/conditions.php:0
+[04-Dec-2016 21:11:19 Europe/Berlin] PHP Notice:  Undefined variable: pocetnavstev in /home/mira/workspace/php/conditions.php on line 21
+[04-Dec-2016 21:11:19 Europe/Berlin] PHP Stack trace:
+[04-Dec-2016 21:11:19 Europe/Berlin] PHP   1. {main}() /home/mira/workspace/php/conditions.php:0
+[04-Dec-2016 21:11:29 Europe/Berlin] PHP Notice:  Undefined variable: pocetnavstev in /home/mira/workspace/php/conditions.php on line 21
+[04-Dec-2016 21:11:29 Europe/Berlin] PHP Stack trace:
+[04-Dec-2016 21:11:29 Europe/Berlin] PHP   1. {main}() /home/mira/workspace/php/conditions.php:0
+[04-Dec-2016 21:13:39 Europe/Berlin] PHP Notice:  Undefined variable: pocetnavstev in /home/mira/workspace/php/conditions.php on line 21
+[04-Dec-2016 21:13:39 Europe/Berlin] PHP Stack trace:
+[04-Dec-2016 21:13:39 Europe/Berlin] PHP   1. {main}() /home/mira/workspace/php/conditions.php:0
+[04-Dec-2016 21:15:51 Europe/Berlin] PHP Notice:  Undefined variable: pocetnavstev in /home/mira/workspace/php/conditions.php on line 21
+[04-Dec-2016 21:15:51 Europe/Berlin] PHP Stack trace:
+[04-Dec-2016 21:15:51 Europe/Berlin] PHP   1. {main}() /home/mira/workspace/php/conditions.php:0
+[04-Dec-2016 21:17:14 Europe/Berlin] PHP Notice:  Undefined variable: pocetnavstev in /home/mira/workspace/php/conditions.php on line 21
+[04-Dec-2016 21:17:14 Europe/Berlin] PHP Stack trace:
+[04-Dec-2016 21:17:14 Europe/Berlin] PHP   1. {main}() /home/mira/workspace/php/conditions.php:0
+[04-Dec-2016 21:17:30 Europe/Berlin] PHP Notice:  Undefined variable: pocetnavstev in /home/mira/workspace/php/conditions.php on line 21
+[04-Dec-2016 21:17:30 Europe/Berlin] PHP Stack trace:
+[04-Dec-2016 21:17:30 Europe/Berlin] PHP   1. {main}() /home/mira/workspace/php/conditions.php:0
+[04-Dec-2016 21:17:39 Europe/Berlin] PHP Notice:  Undefined variable: pocetnavstev in /home/mira/workspace/php/conditions.php on line 21
+[04-Dec-2016 21:17:39 Europe/Berlin] PHP Stack trace:
+[04-Dec-2016 21:17:39 Europe/Berlin] PHP   1. {main}() /home/mira/workspace/php/conditions.php:0
+[04-Dec-2016 21:18:28 Europe/Berlin] PHP Parse error:  syntax error, unexpected end of file, expecting endswitch (T_ENDSWITCH) or case (T_CASE) or default (T_DEFAULT) in /home/mira/workspace/php/conditions.php on line 77
+[04-Dec-2016 21:19:00 Europe/Berlin] PHP Notice:  Undefined variable: pocetnavstev in /home/mira/workspace/php/conditions.php on line 21
+[04-Dec-2016 21:19:00 Europe/Berlin] PHP Stack trace:
+[04-Dec-2016 21:19:00 Europe/Berlin] PHP   1. {main}() /home/mira/workspace/php/conditions.php:0
+[04-Dec-2016 21:19:09 Europe/Berlin] PHP Notice:  Undefined variable: pocetnavstev in /home/mira/workspace/php/conditions.php on line 21
+[04-Dec-2016 21:19:09 Europe/Berlin] PHP Stack trace:
+[04-Dec-2016 21:19:09 Europe/Berlin] PHP   1. {main}() /home/mira/workspace/php/conditions.php:0
+[04-Dec-2016 21:19:24 Europe/Berlin] PHP Notice:  Undefined variable: pocetnavstev in /home/mira/workspace/php/conditions.php on line 21
+[04-Dec-2016 21:19:24 Europe/Berlin] PHP Stack trace:
+[04-Dec-2016 21:19:24 Europe/Berlin] PHP   1. {main}() /home/mira/workspace/php/conditions.php:0
+[04-Dec-2016 21:39:54 Europe/Berlin] PHP Parse error:  syntax error, unexpected end of file, expecting endswitch (T_ENDSWITCH) or case (T_CASE) or default (T_DEFAULT) in /home/mira/workspace/php/conditions.php on line 97
+[04-Dec-2016 21:40:55 Europe/Berlin] PHP Parse error:  syntax error, unexpected end of file, expecting endswitch (T_ENDSWITCH) or case (T_CASE) or default (T_DEFAULT) in /home/mira/workspace/php/conditions.php on line 96
+[04-Dec-2016 21:41:43 Europe/Berlin] PHP Parse error:  syntax error, unexpected end of file, expecting endswitch (T_ENDSWITCH) or case (T_CASE) or default (T_DEFAULT) in /home/mira/workspace/php/conditions.php on line 97
+[04-Dec-2016 21:43:11 Europe/Berlin] PHP Parse error:  syntax error, unexpected end of file, expecting endswitch (T_ENDSWITCH) or case (T_CASE) or default (T_DEFAULT) in /home/mira/workspace/php/conditions.php on line 97
+[04-Dec-2016 21:45:47 Europe/Berlin] PHP Notice:  Undefined variable: pocetnavstev in /home/mira/workspace/php/conditions.php on line 21
+[04-Dec-2016 21:45:47 Europe/Berlin] PHP Stack trace:
+[04-Dec-2016 21:45:47 Europe/Berlin] PHP   1. {main}() /home/mira/workspace/php/conditions.php:0
