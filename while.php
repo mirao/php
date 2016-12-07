@@ -10,28 +10,6 @@ hr {
 }
 </style>
 
-<table>
-<?php
-    $names = [
-        "Mira" => "Obr",
-        "Franta" => "Kaderabek",
-        "Pepa" => "Zdepa",
-        "Rudla" => "Řežábek"
-    ];
-?>
-        <tr>
-            <th>First</th>
-            <th>Last</th>
-        </tr>
-
-<?php
-    foreach (array_keys($names) as $key)
-        echo "<tr><td>$key</td><td>$names[$key]</td></tr>" . PHP_EOL;
-?>
-</table>
-
-<hr>
-
 <TABLE>
 <TR><TD>Číslo</TD><TD>Druhá mocnina</TD></TR>
 <?php
