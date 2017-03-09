@@ -4,12 +4,12 @@ class Car
     var $type, $color, $desc;
     static $descGlobal = "It's a car";
 
-    static function printDesc()
+    private static function printDesc()
     {
         echo "Global desc: " . self::$descGlobal, PHP_EOL;
     }
 
-    function car($type = "Trabant", $color = "White", $desc = "Classic")
+    function __construct($type = "Trabant", $color = "White", $desc = "Classic")
     {
         $this->type = $type;
         $this->color = $color;
@@ -31,4 +31,4 @@ $car->color = "Red";
 $car->print();
 $car2 = new Car("Audi", "Blue", "Very modern");
 $car2->print();
-Car::printDesc(); // print desc globally
+// Car::printDesc(); // print desc globally - it produces error, because the method is private
