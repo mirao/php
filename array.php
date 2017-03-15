@@ -73,6 +73,7 @@ function cenzuruj($text)
 {
   $SpatnaSlova = Array("Windows", "Microsoft", "databáze");
   $RozdelText = explode(" ", $text);
+  $PoCenzure = "";
   foreach ($RozdelText as $TestovaneSlovo) {
     if (in_array($TestovaneSlovo, $SpatnaSlova))
       $TestovaneSlovo=CENZUROVANO;
