@@ -16,7 +16,7 @@ class Car
         $this->desc = $desc;
     }
 
-    function print()
+    function printCar()
     {
         echo "Type: " . $this->type, PHP_EOL;
         echo "Color: " . $this->color, PHP_EOL;
@@ -28,7 +28,7 @@ class Car
 $car = new Car;
 $car->type = "Ferrari";
 $car->color = "Red";
-$car->print();
+$car->printCar();
 $car2 = new Car("Audi", "Blue", "Very modern");
-$car2->print();
+$car2->printCar();
 // Car::printDesc(); // print desc globally - it produces error, because the method is private
