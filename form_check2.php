@@ -20,7 +20,7 @@ $BudemeZobrazovat=true;
     } 
   } 
 if ($BudemeZobrazovat):?> 
-  <form method="post" action="form_check2.php"> 
+  <form method="post" action="<?php echo $_SERVER["PHP_SELF"]?>"> 
     E-mail: <input name="email" value='<?php echo htmlspecialchars(isset($_POST["email"]) ? $_POST["email"] : '', ENT_QUOTES) ?>'> 
       <input type="Submit" name="odesli"> 
   </form> 
