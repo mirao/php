@@ -1,5 +1,5 @@
 <?php
-require "config.php";
+require_once 'Db.php';
 
 /** Print results */
 function printResults($sth) {
@@ -16,13 +16,11 @@ function printResults($sth) {
 }
 
 try {
-    // Connect
-    $dbh = new PDO('mysql:host=' . SQL_HOST . ';dbname=' . SQL_DBNAME, SQL_USERNAME, SQL_PASSWORD);
-    $dbh->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+    $db = new Db; // Connect to DB
+    $dbh = $db->dbh;
     // Query
     $sth = $dbh->query('SELECT * FROM names');
     printResults($sth);
-    $dbh = null;
 } catch (PDOException $e) {
     var_dump("Error: " . $e->getMessage());
     die();
