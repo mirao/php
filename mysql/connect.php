@@ -16,8 +16,7 @@ function printResults($sth) {
 }
 
 try {
-    $db = new Db; // Connect to DB
-    $dbh = $db->dbh;
+    $dbh = new Db; // Connect to DB
     // Query
     $sth = $dbh->query('SELECT * FROM names');
     printResults($sth);
