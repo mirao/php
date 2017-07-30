@@ -27,7 +27,7 @@ if (!empty($_POST)) { // tak už se odesílalo a musíme kontolovat
             } else {
                 echo "PSČ ".$_POST["psc"]." má následujících $radku obcí:<BR>";
                 foreach ($sth as $row) {
-                    echo $row["nazobce"]."<BR>\n";
+                    echo $row["nazcobce"]."<BR>\n";
                 }
             };
         } catch (PDOException $e) {
