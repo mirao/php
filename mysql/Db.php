@@ -7,7 +7,7 @@ class Db extends PDO
     function __construct()
     {
         // Connect to DB
-        parent::__construct('mysql:host=' . SQL_HOST . ';dbname=' . SQL_DBNAME, SQL_USERNAME, SQL_PASSWORD);
+        parent::__construct('mysql:host=' . SQL_HOST . ';dbname=' . SQL_DBNAME . ';charset=utf8', SQL_USERNAME, SQL_PASSWORD);
         $this->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
     }
 

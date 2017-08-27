@@ -22,7 +22,6 @@ require_once 'Db.php';
 define ("ROWS", 50);
 try {
     $dbh = new Db; // Connect to DB
-    $dbh->query("SET NAMES 'utf8'");
     if (!isset($_GET["celkem"])) { //pokud nevíme, kolik bude záznamů tak to zjistíme...
         $vysledek = $dbh->query("select count(*) as pocet from psc");
         $celkem=$vysledek->fetchColumn();

@@ -17,7 +17,6 @@ if (!empty($_POST)) { // tak už se odesílalo a musíme kontolovat
         try {
             $dbh = new Db; // Connect to DB
 
-            $dbh->query("SET NAMES 'utf8'");
             // Records were loaded to table by SQL command:
             // LOAD DATA local INFILE '/home/mira/workspace/php/mysql/psc.csv' INTO TABLE psc FIELDS TERMINATED BY ';' ignore 1 lines;
             $sth = $dbh->query("select * from psc where psc=".$_POST["psc"]);
