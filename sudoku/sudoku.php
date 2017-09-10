@@ -32,6 +32,7 @@ class Sudoku {
     public function __construct()
     {
         $this->matrix = [];
+        $this->backupMatrix = [];
         $this->foundNumbers = [];
         $this->lastNum = 0;
         $this->restart = true;
@@ -51,13 +52,24 @@ class Sudoku {
             $row = str_replace("|", "", $row);
             $this->matrix[$rowId++] = str_split($row);
         }
+        $this->backupMatrix = $this->matrix;
     }
 
     /** Display Sudoku to stdout */
     public function printSudoku() {
-        foreach ($this->matrix as $row) {
-            $row = implode("|", str_split(implode("", $row), 3));
-            echo $row, PHP_EOL;
+        for ($rowId = 0; $rowId < 9; $rowId++ ) {
+            for ($colId = 0; $colId < 9; $colId++ ) {
+                if ($colId > 0 && ceil($colId / 3) == $colId / 3) {
+                    echo "|";
+                }
+                $char = $this->matrix[$rowId][$colId];
+                if ($this->backupMatrix[$rowId][$colId] != $char) {
+                    echo "\033[1;36m$char\033[0m"; 
+                } else {
+                    echo $char;
+                } 
+            }
+            echo PHP_EOL;
         }
     }
 
