@@ -28,6 +28,8 @@ class Sudoku {
     /** @var bool Restart computing because last filled number is incorrect */ 
     private $restart;
     
+    /** How many calls isNumberCorrect() is performed */
+    public $isNumberCorrectCnt;
 
     public function __construct()
     {
@@ -36,6 +38,7 @@ class Sudoku {
         $this->foundNumbers = [];
         $this->lastNum = 0;
         $this->restart = true;
+        $this->isNumberCorrectCnt = 0;
     }
 
     /** Is restart of computing needed */
@@ -82,6 +85,8 @@ class Sudoku {
      */
     private function isNumberCorrect($rowId, $colId, $num)
     {
+        $this->isNumberCorrectCnt++;
+
         // Is number unique in row?
         for ($j = 0; $j < 9; $j++) {
             if ($colId != $j) {
@@ -161,3 +166,4 @@ while ($sudoku->getRestart()) { // Compute until all numbers are correct
     $sudoku->findNumbers();
 }
 $sudoku->printSudoku();
+echo "Number of checks: " . $sudoku->isNumberCorrectCnt. PHP_EOL;
