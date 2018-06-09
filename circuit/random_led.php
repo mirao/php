@@ -16,7 +16,7 @@
  */ 
 function printHeader(int $numCnt)
 {
-    echo "Press number 0 - " . ($numCnt - 1) . " after each LED result. Abort by Ctrl+C\n";
+    echo "Press number 0 - " . ($numCnt - 1) . " after every LED result. Abort by Ctrl+C\n";
     for ($i = 0; $i < $numCnt; $i++) {
         echo "$i\t";
     }
@@ -26,20 +26,20 @@ function printHeader(int $numCnt)
 /**
  * Print current stats after each try
  * @param array $tries Tries
- * @param int $totalTriesnumCnt Total tries count
+ * @param int $totalTriesCnt Total tries count
  * @param int $numCnt Count of numbers
  */ 
-function printStats(array $tries, $totalTriesnumCnt, $numCnt)
+function printStats(array $tries, $totalTriesCnt, $numCnt)
 {
     for ($i = 0; $i < $numCnt; $i++) {
-        echo round($tries[$i] / $totalTriesnumCnt * 100) . "%\t";
+        echo round($tries[$i] / $totalTriesCnt * 100) . "%\t";
     }
     echo "\n";
 }
 
 system('stty cbreak -echo');
 $stdin = fopen('php://stdin', 'r');
-$totalTriesnumCnt = 0;
+$totalTriesCnt = 0;
 $tries = [];
 $numCnt = isset($argv[1]) ? $argv[1] : 2;
 for ($i = 0; $i < $numCnt; $i++) {
@@ -50,8 +50,8 @@ printHeader($numCnt);
 while (1) {
     $response = fgetc($stdin);
     if ($response >= 0 && $response < $numCnt) {
-        $totalTriesnumCnt++;
+        $totalTriesCnt++;
         $tries[$response]++;
-        printStats($tries, $totalTriesnumCnt, $numCnt);
+        printStats($tries, $totalTriesCnt, $numCnt);
     }
 }
