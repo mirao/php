@@ -49,7 +49,7 @@ for ($i = 0; $i < $numCnt; $i++) {
 printHeader($numCnt);
 while (1) {
     $response = fgetc($stdin);
-    if ($response >= 0 && $response < $numCnt) {
+    if ($response >= "0" && $response < $numCnt) {
         $totalTriesCnt++;
         $tries[$response]++;
         printStats($tries, $totalTriesCnt, $numCnt);
